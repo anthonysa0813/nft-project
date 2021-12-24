@@ -1,0 +1,49 @@
+.heroContainer {
+  display: flex;
+  background-image: url("../images/hero-transparent1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 124px 83px;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+}
+
+.heroInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 125px;
+}
+
+.heroContent button {
+  margin-left: 0;
+}
+
+.heroCard {
+  border-radius: 0.5rem;
+}
+
+.heroCard img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  display: block;
+}
+
+.cardText {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: var(--color-white);
+}
+
+.thumbTitle {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}

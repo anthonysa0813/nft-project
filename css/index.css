@@ -1,0 +1,70 @@
+@import url("./header.css");
+@import url("./hero.css");
+
+/* el root es como un alias que apunta hacia la etiqueta html */
+:root {
+  --color-primary: #2081e2;
+  --color-black: #222222;
+  --color-white: #ffffff;
+  --color-green: #65c482;
+  --color-grey10: #717171;
+  --color-grey20: #fbfdff;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+/* utilities */
+.debug {
+  border: 2px solid red;
+}
+
+.font-light {
+  font-weight: 400;
+  font-style: normal;
+  line-height: 18px;
+  font-size: 14px;
+}
+
+.font-medium {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-bold {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.btn-outline-primary {
+  border: none;
+  background-color: var(--color-white);
+  padding: 14px 32px;
+  color: var(--color-primary);
+  border: 1px solid #2081e2;
+  outline: none;
+  border-radius: 12px;
+  line-height: 20px;
+}
+
+.btn-primary {
+  border: none;
+  padding: 14px 32px;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  outline: none;
+  line-height: 20px;
+
+  border-radius: 12px;
+  margin-left: 1rem;
+}
+
+.text-black {
+  color: var(--color-black);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
